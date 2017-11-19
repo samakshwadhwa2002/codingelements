@@ -1,0 +1,22 @@
+
+TO GO INSIDE THE PROJECT
+cd /Users/sandeepwadhwa/Desktop/coding\ elements\ /hosting/
+
+
+
+TO RUN LOCALLY
+firebase serve --only hosting
+
+THEN GO TO 
+http://localhost:5000
+
+TO STOP LOCAL SERVER
+Ctrl + C
+
+
+
+
+
+TO DEPLOY
+firebase deploy --only hosting
+

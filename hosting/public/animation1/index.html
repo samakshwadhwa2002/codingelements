@@ -1,0 +1,39 @@
+<html>
+	<head> 
+		 <!-- Materialize CSS -->
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		
+			<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+			<script>
+			  // Initialize Firebase
+			  var config = {
+			    apiKey: "AIzaSyCc_PUn3Ctc70fvjKb2RXEVld-qKUY_BXc",
+			    authDomain: "codingelements-31dec.firebaseapp.com",
+			    databaseURL: "https://codingelements-31dec.firebaseio.com",
+			    projectId: "codingelements-31dec",
+			    storageBucket: "",
+			    messagingSenderId: "696017898270"
+			  };
+			  firebase.initializeApp(config);
+			</script>
+		<script src="main.js"></script>
+	</head>
+	<body class="container blue-grey lighten-5 ">
+		<h5>animation</h5>
+		<br>
+		<br>
+		<button onclick="startAnimation()" class='waves-effect waves-light btn'>start</button>
+		<br>
+		<br>
+		<div id="box" style="display:box;background-color:red;position:absolute;height:100;width:100;" ></div>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<br>
+		<br>
+		<br>
+	</body>
+</html>

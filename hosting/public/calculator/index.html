@@ -1,0 +1,63 @@
+<html>
+	<head> 
+		 <!-- Materialize CSS -->
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		
+<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCc_PUn3Ctc70fvjKb2RXEVld-qKUY_BXc",
+    authDomain: "codingelements-31dec.firebaseapp.com",
+    databaseURL: "https://codingelements-31dec.firebaseio.com",
+    projectId: "codingelements-31dec",
+    storageBucket: "",
+    messagingSenderId: "696017898270"
+  };
+  firebase.initializeApp(config);
+</script>
+		<script src="main.js"></script>
+	</head>
+	<body class="container blue-grey lighten-5 ">
+		<h5>calculator</h5>
+		<br>
+		<br>
+		<h5 id="calcresult"></h5>
+		<br>
+		<button onclick="pressBtn(7)" class='waves-effect waves-light btn'>7</button>
+		<button onclick="pressBtn(8)">8</button>
+		<button onclick="pressBtn(9)">9</button>	
+		<button onclick="pressBtn('/')">/</button>	
+		<br>
+		<button onclick="pressBtn(4)">4</button>
+		<button onclick="pressBtn(5)">5</button>
+		<button onclick="pressBtn(6)">6</button>
+		<button onclick="pressBtn('*')">x</button>
+		<br>
+		<button onclick="pressBtn(1)">1</button>
+		<button onclick="pressBtn(2)">2</button>
+		<button onclick="pressBtn(3)">3</button>
+		<button onclick="pressBtn('-')">-</button>
+		<br>
+		<button onclick="pressBtn('.')">.</button>
+		<button onclick="pressBtn(0)">0</button>
+		<button onclick="pressBtn('=')">=</button>
+		<button onclick="pressBtn('+')">+</button>
+		<br>
+		<button onclick="pressBtn('del')" class = "btn">del</button>
+
+		<br>
+		<br>
+		<br>
+		<!-- input type="text" id="num1"></input> 
+		<input type="text" id="num2"></input> 
+		<br>
+		<button onclick="addFunc()" class="btn blue">Add</button>
+		<button onclick="subtractFunc()" class="btn blue">Subtract</button>
+		<br>
+		<br>
+		<h5 id="result"></h5 -->
+
+	</body>
+</html>
